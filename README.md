@@ -14,11 +14,11 @@ Installation overview using XigmanasNAS Bastille Extension Gui
 5. Base Release: 12.2-Release (or newer)
 
 6. Jail Type: 
-            Create a thick container  = NO
-            Enable VNET(VIMAGE)       = YES
-            Create an empty container = NO
-            Start after creation      = YES
-            Auto start on boot        = YES
+- [ ] Create a thick container.
+- [x] Enable VNET(VIMAGE).
+- [ ] Create an empty container.
+- [x] Start after creation.
+- [x] Auto start on boot.
 
 7. Click Create
 
@@ -26,9 +26,9 @@ Installation overview using XigmanasNAS Bastille Extension Gui
 
 9. Open and edit the jail.conf for jellyfin jail using the GUI.
 
-10. add This two lines
-- [x] allow_raw_sockets
-- [x] allow_mlock
+10. Add This two lines
+- allow.mlock;
+- allow.raw_sockets;
 
 9. Configure Network Properties to your liking
 
