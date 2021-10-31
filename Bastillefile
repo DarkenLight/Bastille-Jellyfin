@@ -1,7 +1,7 @@
 CMD fetch https://github.com/Thefrank/jellyfin-server-freebsd/releases/download/v10.7.7/jellyfinserver-10.7.7.txz
 PKG jellyfinserver-10.7.7.txz
 CMD ln -s /usr/local/lib/libsqlite3.so /usr/local/lib/libe_sqlite3
-CMd pw user add jellyfin -c jellyfin -u 710 -d /nonexistent -s /usr/bin/nologin
+CMD pw user add jellyfin -c jellyfin -u 710 -d /nonexistent -s /usr/bin/nologin
 SYSRC jellyfinserver_enable=TRUE
 SYSRC jellyfinserver_user=jellyfin
 SYSRC jellyfinserver_group=jellyfin
