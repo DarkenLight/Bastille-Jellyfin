@@ -30,18 +30,20 @@ Installation overview using XigmanasNAS Bastille Extension Gui
 - allow.mlock;
 - allow.raw_sockets;
 
-9. Configure Network Properties to your liking
-
-10. Configure Custom Properties to your liking
-
 11. Click Save
 
+12. Restart the jail.
 
-# Bootstrap
-bastille bootstrap https://gitlab.com/bastillebsd-templates/guacamole
 
-# Usage
-bastille template TARGET bastillebsd-templates/guacamole
+# Applying the jellyfin template to the newly cheated jail
 
-# Thanks to Thefrank for FreeBSD pkg of jellyfin
+## Bootstrap
+1. SSH to your Xigmanas Server
+
+2. bastille bootstrap https://gitlab.com/DarkenLight/Bastille-jellyfin
+
+3. bastille template jellyfin bastillebsd-templates/guacamole ;  [bastille template TARGET DarkenLight/Bastille-jellyfin].
+
+
+## Thanks to Thefrank for FreeBSD pkg of jellyfin
 https://github.com/Thefrank/jellyfin-server-freebsd
