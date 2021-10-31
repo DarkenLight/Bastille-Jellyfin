@@ -43,7 +43,7 @@ Installation overview using XigmanasNAS Bastille Extension Gui
 - bastille bootstrap https://github.com/DarkenLight/Bastille-jellyfin
 
 3. Apply the Template to the TARGATE jail. bastille template TARGET DarkenLight/Bastille-jellyfin
-- bastille template jellyfin bastillebsd-templates/guacamole
+- bastille template jellyfin DarkenLight/Bastille-jellyfin
 
 
 ## Thanks to Thefrank for FreeBSD pkg of jellyfin
