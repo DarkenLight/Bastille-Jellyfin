@@ -40,10 +40,10 @@ Installation overview using XigmanasNAS Bastille Extension Gui
 1. SSH to your Xigmanas Server
 
 2. BOOTSTRAP the template
-- bastille bootstrap https://github.com/DarkenLight/Bastille-jellyfin
+`bastille bootstrap https://github.com/DarkenLight/Bastille-jellyfin`
 
-3. Apply the Template to the TARGATE jail. bastille template TARGET DarkenLight/Bastille-jellyfin
-- bastille template jellyfin DarkenLight/Bastille-jellyfin
+3. Apply the Template to the TARGATE jail.
+`bastille template jellyfin DarkenLight/Bastille-jellyfin`
 
 
 ## Thanks to Thefrank for FreeBSD pkg of jellyfin
