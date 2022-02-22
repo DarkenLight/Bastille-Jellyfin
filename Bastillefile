@@ -3,6 +3,6 @@ PKG jellyfinserver-10.7.7.pkg
 CMD ln -s /usr/local/lib/libsqlite3.so /usr/local/lib/libe_sqlite3
 CMD pw user add jellyfin -c jellyfin -u 710 -d /nonexistent -s /usr/bin/nologin
 SYSRC jellyfinserver_enable=TRUE
-SYSRC jellyfinserver_user=jellyfin
-SYSRC jellyfinserver_group=jellyfin
+SYSRC jellyfinserver_user=jellyfinserver
+SYSRC jellyfinserver_group=jellyfinserver
 SERVICE jellyfinserver start
