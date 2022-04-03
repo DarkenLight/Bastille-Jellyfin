@@ -7,4 +7,4 @@
 #SERVICE jellyfinserver start
 CP config.sh /root
 CMD chmod +x config.sh && ./config.sh
-RENDER /etc/rc.conf
+CMD echo "${jellyfinserver_enable}"
