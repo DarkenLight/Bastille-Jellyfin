@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-project_name="JellyFin"
+project_name="Jellyfinserver"
 
 clear
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
@@ -31,8 +31,8 @@ echo "MEDIA DIRECTORY = ${media_dir}"
 echo "MOUNTED LOCATION = ${mount_dir}"
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
 
-sysrc media_dir="${media_dir}"
-sysrc mount_dir="${mount_dir}"
+sysrc ${project_name}_media_dir="${media_dir}"
+sysrc ${project_name}_mount_dir="${mount_dir}"
 fi
 
 echo "Setup complete"
