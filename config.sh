@@ -37,3 +37,4 @@ sysrc mount_dir = "${mount_dir}"
 fi
 
 echo "Setup complete"
+echo "${project_name} Running at $HOSTNAME:8069"
