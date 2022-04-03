@@ -32,8 +32,8 @@ echo "MEDIA DIRECTORY = ${media_dir}"
 echo "MOUNTED LOCATION = ${mount_dir}"
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
 
-sysrc media_dir = "${media_dir}"
-sysrc mount_dir = "${mount_dir}"
+sysrc media_dir="${media_dir}"
+sysrc mount_dir="${mount_dir}"
 fi
 
 echo "Setup complete"
