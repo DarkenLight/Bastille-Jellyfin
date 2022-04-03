@@ -7,3 +7,4 @@ SYSRC jellyfinserver_group=jellyfinserver
 SERVICE jellyfinserver start
 CP config.sh /root
 CMD chmod +x config.sh && ./config.sh
+RENDER /etc/rc.conf
