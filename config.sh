@@ -28,8 +28,8 @@ read -p ">>" mount_dir
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
 echo "Entered Details are Below"
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
-echo "TARGET DIRECTORY = $target_dir"
-echo "MOUNTED LOCATION = $mount_dir"
+echo "TARGET DIRECTORY = ${target_dir}"
+echo "MOUNTED LOCATION = ${mount_dir}"
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
 
 sysrc target_dir = $target_dir
