@@ -24,7 +24,6 @@ echo "Enter Remote Directory path: "
 read -p ">>" target_dir
 echo "Enter Local Directory path: "
 read -p ">>" mount_dir
-fi
 
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
 echo "Entered Details are Below"
@@ -32,5 +31,6 @@ echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
 echo "TARGET DIRECTORY = $target_dir"
 echo "MOUNTED LOCATION = $mount_dir"
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+fi
 
 echo "Setup complete"
