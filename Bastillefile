@@ -5,5 +5,5 @@ SYSRC jellyfinserver_enable=TRUE
 SYSRC jellyfinserver_user=jellyfinserver
 SYSRC jellyfinserver_group=jellyfinserver
 SERVICE jellyfinserver start
-CP config.sh /root
-CMD chmod +x config.sh && ./config.sh
+# CP config.sh /root
+# CMD chmod +x config.sh && ./config.sh
