@@ -31,6 +31,9 @@ echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
 echo "TARGET DIRECTORY = $target_dir"
 echo "MOUNTED LOCATION = $mount_dir"
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+
+sysrc target_dir = $target_dir
+sysrc mount_dir = $mount_dir
 fi
 
 echo "Setup complete"
