@@ -21,19 +21,19 @@ echo  # (optional) move to a new line
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
 echo "Enter Remote Directory path: "
-read -p ">>" target_dir
+read -p ">>" media_dir
 echo "Enter Local Directory path: "
 read -p ">>" mount_dir
 
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
 echo "Entered Details are Below"
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
-echo "TARGET DIRECTORY = ${target_dir}"
+echo "MEDIA DIRECTORY = ${media_dir}"
 echo "MOUNTED LOCATION = ${mount_dir}"
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
 
-sysrc target_dir = $target_dir
-sysrc mount_dir = $mount_dir
+sysrc media-dir = "${target_dir}"
+sysrc mount-dir = "${mount_dir}"
 fi
 
 echo "Setup complete"
