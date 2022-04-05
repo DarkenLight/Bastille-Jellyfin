@@ -24,7 +24,7 @@ Installation overview using XigmanasNAS Bastille Extension Gui
 
 8. Open the jail configaration Menu, Select Advance> Execute.
 
-9. Open and edit the jail.conf for jellyfin jail using the GUI.
+9. Open and edit the jail.conf for Jellyfin jail using the GUI.
 
 10. Add This two lines
 - allow.mlock;
@@ -40,11 +40,11 @@ Installation overview using XigmanasNAS Bastille Extension Gui
 1. SSH to your Xigmanas Server
 
 2. BOOTSTRAP the template
-`bastille bootstrap https://github.com/DarkenLight/Bastille-jellyfin`
+`bastille bootstrap https://github.com/DarkenLight/Bastille-Jellyfin`
 
 3. Apply the Template to the TARGATE jail.
-`bastille template jellyfin DarkenLight/Bastille-jellyfin`
+`bastille template jellyfin DarkenLight/Bastille-Jellyfin`
 
 
-## Thanks to Thefrank for FreeBSD pkg of jellyfin
+## Thanks to Thefrank for FreeBSD pkg of Jellyfin
 https://github.com/Thefrank/jellyfin-server-freebsd
