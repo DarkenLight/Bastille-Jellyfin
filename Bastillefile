@@ -1,5 +1,5 @@
-CMD fetch https://github.com/Thefrank/jellyfin-server-freebsd/releases/download/v10.8.1/jellyfinserver-10.8.1.pkg
-PKG jellyfinserver-10.8.1.pkg
+CMD fetch https://github.com/Thefrank/jellyfin-server-freebsd/releases/download/v10.8.8/jellyfinserver-10.8.9.pkg
+PKG jellyfinserver-10.8.9.pkg
 CMD ln -s /usr/local/lib/libsqlite3.so /usr/local/lib/libe_sqlite3
 SYSRC jellyfinserver_enable=TRUE
 SYSRC jellyfinserver_user=jellyfinserver
