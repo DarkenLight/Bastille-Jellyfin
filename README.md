@@ -1,50 +1,46 @@
-# Jellyfin Server
-Bastille template to bootstrap Jellyfin
-Installation overview using XigmanasNAS Bastille Extension Gui
+# How to Install Jellyfin Server on XigmanasNAS Using Bastille
+
+Jellyfin is a free and open-source media server that allows you to stream media files such as music, videos, and photos to various devices. In this tutorial, we'll show you how to install Jellyfin Server on XigmanasNAS using Bastille.
 
 ## Jail Setup
-1. From the main screen select Extension/Bastille
 
-2. Click ADD [+] button
+1. From the main screen, select Extension/Bastille.
 
-3. Name (any name will work): Jellyfin
+2. Click the [+] button to add a new jail.
 
-4. Configure Network Properties to your liking
+3. Choose a name for the jail (any name will work), and configure the network properties according to your preferences.
 
-5. Base Release: 12.2-Release (or newer)
+4. Set the base release to 12.2-Release or newer.
 
-6. Jail Type: 
+5. Under Jail Type, select the following options:
 - [ ] Create a thick container.
 - [x] Enable VNET(VIMAGE).
 - [ ] Create an empty container.
 - [x] Start after creation.
 - [x] Auto start on boot.
 
-7. Click Create
+6. Click Create to create the jail.
 
-8. Open the jail configaration Menu, Select Advance> Execute.
+7. Open the jail configuration menu and select Advance > Execute.
 
-9. Open and edit the jail.conf for Jellyfin jail using the GUI.
+8. Use the GUI to open and edit the jail.conf file for the Jellyfin jail.
 
-10. Add This two lines
+9. Add the following two lines to the file:
 - allow.mlock;
 - allow.raw_sockets;
 
-11. Click Save
+10. Click Save.
 
-12. Restart the jail.
+11. Restart the jail.
 
+## Applying the Jellyfin Template to the Newly Created Jail
 
-## Applying the jellyfin template to the newly created jail
+1. SSH to your Xigmanas server.
 
-1. SSH to your Xigmanas Server
-
-2. BOOTSTRAP the template
+2. Bootstrap the Jellyfin template using the following command:
 `bastille bootstrap https://github.com/DarkenLight/Bastille-Jellyfin`
 
-3. Apply the Template to the TARGATE jail.
+3. Apply the template to the target jail using the following command:
 `bastille template jellyfin DarkenLight/Bastille-Jellyfin`
 
-
-## Thanks to Thefrank for FreeBSD pkg of Jellyfin
-https://github.com/Thefrank/jellyfin-server-freebsd
+Special thanks to Thefrank for providing the FreeBSD pkg of Jellyfin: https://github.com/Thefrank/jellyfin-server-freebsd
