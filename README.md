@@ -21,18 +21,6 @@ Jellyfin is a free and open-source media server that allows you to stream media 
 
 6. Click Create to create the jail.
 
-7. Open the jail configuration menu and select Advance > Execute.
-
-8. Use the GUI to open and edit the jail.conf file for the Jellyfin jail.
-
-9. Add the following two lines to the file:
-- allow.mlock;
-- allow.raw_sockets;
-
-10. Click Save.
-
-11. Restart the jail.
-
 ## Applying the Jellyfin Template to the Newly Created Jail
 
 1. SSH to your Xigmanas server.
