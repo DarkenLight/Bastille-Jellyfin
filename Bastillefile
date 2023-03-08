@@ -1,5 +1,5 @@
 ARG VERSION=10.8.9
-CP testservice.sh /root
+CP testservice.sh root
 CMD fetch https://github.com/Thefrank/jellyfin-server-freebsd/releases/download/v${VERSION}/jellyfinserver-${VERSION}.pkg
 PKG jellyfinserver-${VERSION}.pkg
 CMD ln -s /usr/local/lib/libsqlite3.so /usr/local/lib/libe_sqlite3
