@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-
+#!/bin/sh
 project_name="Jellyfinserver"
 echo "Installation is complete"
 
