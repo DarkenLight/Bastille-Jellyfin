@@ -11,5 +11,5 @@ echo " | |__| | | |____  | |____  | |____     | |    | |       _| |_  | |\  |"
 echo "  \____/  |______| |______| |______|    |_|    |_|      |_____| |_| \_|"
 echo "                                                                       "
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
-if service ${project_name} status | grep -q "is running"; then echo "${project_name} is Running at Jail IP:8069"; else echo "${project_name} is not running.."; fi
+if service ${project_name} status | grep -q "is running"; then echo "${project_name} is Running at Jail IP:8096"; else echo "${project_name} is not running.."; fi
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
