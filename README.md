@@ -31,4 +31,7 @@ Jellyfin is a free and open-source media server that allows you to stream media 
 3. Apply the template to the target jail using the following command:
 `bastille template jellyfin DarkenLight/Bastille-Jellyfin`
 
-Special thanks to Thefrank for providing the FreeBSD pkg of Jellyfin: https://github.com/Thefrank/jellyfin-server-freebsd
+   or for custom version 
+`bastille template jellyfin DarkenLight/Bastille-Jellyfin --arg VERSION=10.8.9`
+
+Special thanks to [Thefrank](https://github.com/Thefrank) for providing the FreeBSD pkg of Jellyfin: [jellyfin-server-freebsd](https://github.com/Thefrank/jellyfin-server-freebsd)
