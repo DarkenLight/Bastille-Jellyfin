@@ -1,8 +1,6 @@
 #!/bin/sh
-project_name="Jellyfinserver"
+project_name="jellyfinserver"
 echo "Installation is complete"
-
-
 
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
 echo "       _   ______   _        _       __     __  ______   _____   _   _ "
@@ -13,5 +11,5 @@ echo " | |__| | | |____  | |____  | |____     | |    | |       _| |_  | |\  |"
 echo "  \____/  |______| |______| |______|    |_|    |_|      |_____| |_| \_|"
 echo "                                                                       "
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
-if service ${project_name} status | grep -q "is running"; then echo "${project_name} is Running at $HOSTNAME:8069"; else echo "${project_name} is not running.."; fi
+if service ${project_name} status | grep -q "is running"; then echo "${project_name} is Running at Jail IP:8069"; else echo "${project_name} is not running.."; fi
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
